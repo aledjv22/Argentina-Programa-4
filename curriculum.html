@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Curriculum Vitae - Victor Alejandro Díaz Jáuregui</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1>Curriculum Vitae</h1>
+		</div>
+		<div class="header-content">
+			<img src="./Foto.png" alt="Foto de perfil">
+			<h2>Victor Alejandro Díaz Jáuregui</h2>
+		</div>
+	</header>
+
+	<section>
+		<h3>Información personal</h3>
+		<ul>
+			<li>Nombre completo: Victor Alejandro Díaz Jáuregui</li>
+			<li>Correo electrónico: victor.diaz.jauregui@mi.unc.edu.ar</li>
+			<li>Número de teléfono: 3513323655</li>
+			<li>Dirección: Barrio Nuestro Hogar 3 - Manzana 62 Lote 22</li>
+		</ul>
+	</section>
+	<section>
+		<h3>Formación académica</h3>
+		<ul>
+			<li>Licenciatura en ciencias de la computación - Facultad de Matemática, Astronomía y Física (FaMAF), Universidad Nacional de Córdoba (UNC)</li>
+			<li>Técnico en electrónica de nivel medio</li>
+		</ul>
+	</section>
+	<section>
+		<h3>Experiencia laboral</h3>
+		<ul>
+			<li><strong>Pasantía en STARLIGH SA - Julio 2019 a Septiembre 2019:</strong> Soldaduras, mantenimiento y enpaquetado de productos de la empresa (los productos incluyen alarmas, motores de portón, cámaras de seguridad, entre otros)</li>
+			<li><strong>Auditoría de medios en CVAMedios Córdoba - Febrero 2019 a Marzo 2019</strong></li>
+		</ul>
+	</section>
+	<section>
+				<h3>Habilidades y fortalezas</h3>
+		<ul>
+			<li>Capacidad para trabajar bajo presión</li>
+			<li>Manejo excelente de las capacidades básicas para el uso de las computadoras</li>
+		</ul>
+	</section>
+	<section>
+		<h3>Intereses</h3>
+		<ul>
+			<li>Estudiar más sobre el trabajo que me encuentre realizando</li>
+			<li>Estudiar más sobre los temas que abarca los conocimientos adquiridos en mi carrera</li>
+			<li>Mantenerme actualizado en los cambios diarios que se producen en el ámbito de la computación</li>
+		</ul>
+	</section>
+	<section>
+		<h3>Referencias</h3>
+		<ul>
+			<li>STARLIGH SA: 0351 480-9210</li>
+			<li>CVAMedios: argentina@cvamedios.com</li>
+		</ul>
+	</section>
+	<button class="btn" id="btnForm">Contactar</button>
+	<form id="myForm">
+		<label for="name">Nombre:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="message">Mensaje:</label>
+		<textarea id="message" name="message" required></textarea>
+		<input type="submit" value="Enviar">
+	</form>
+	<div id="sentMessage" class="message"></div>
+	<script src="./main.js"></script>
+</body>
+</html>
